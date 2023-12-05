@@ -1,0 +1,553 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext);
+
+*{
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+  background-color: #FFD1DA;
+}
+
+.photo{
+  background-repeat: no-repeat;
+  position: relative;
+  Bottom: 10px;
+  height: 39vw;
+  background-size: 100% auto;
+  background-image: url(../album/ghibliWorld.png);
+}
+
+.topnav {
+  height: 7%;
+  position: relative;
+  bottom: 360px;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to right top,
+    #40128B,
+    #9336B4,
+    #DD58D6,
+    #FFE79B
+  )
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(225, 181, 218);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #7804aa;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-image: linear-gradient(
+    to right bottom,
+    #40128B,
+    #9336B4,
+    #DD58D6,
+    #FFE79B
+  );
+  color: white;
+}
+
+#sessao-bemvindo {
+  padding-left: 0;
+  height: 40%;
+}
+
+.sessao-bemvindo-content {
+  padding-left: 700px;
+  position: relative;
+  bottom: 350px;
+  right: 90px;
+}
+
+#sessao-bemvindo .banner {
+  position:absolute;
+  top: 500px;
+  left: 20px;
+  margin: 0;
+  width: 400px;
+  height: 600px;
+  background-image: url('../album/Studio.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#teste{
+  height: 0%;
+}
+
+
+#sessao-bemvindo h1 {
+  position: relative;
+  right: 60px;
+  margin-top: 70px;
+  color: #40128B;
+  font-size: 30px;
+}
+
+.sessao-descricao p {
+  position: relative;
+  bottom: 439px;
+  right: 135px;
+  line-height: 2;
+  font-size: 16px;
+}
+
+.paragraph2 {
+  position: relative;
+  bottom: 511px;
+  right: 135px;
+  height: 113px;
+}
+
+.paragraph10 {
+  position: relative;
+  bottom: 903px;
+  right: 111px;
+    text-align: justify;
+    padding-left: 41%;
+    padding-right: 10%;
+}
+
+.paragraph4 {
+  position: relative;
+  bottom: 523px;
+  right: 135px;
+  height: 75px;
+}
+
+.paragraph12 {
+  position: relative;
+  bottom: 60vw;
+  right: 135px;
+  height: 86px;
+}
+
+
+
+.sessao-minibanner1 { 
+  position: absolute;
+  left: 77vw;
+  top: 80vw;
+  width: 240px;
+  height: 450px;
+  background-image: url('../album/amigosTotoro.jpg');
+  background-position: center;
+  background-size: cover;
+  float: left;
+} 
+
+.sessao-descricao1 {
+ position: relative;
+text-align: justify;
+padding-left: 29%;
+line-height: 150%;
+right: 359px;
+top: 13vw;
+  line-height: 2;
+  font-size: 16px;
+  height: 132px;
+}
+
+.paragraph5 {
+  position: relative;
+  top: 13vw;
+  height: 56px;
+  right: 300px;
+  text-align: justify;
+padding-left: 25%;
+padding-right: 5%;
+line-height: 150%;
+}
+
+.paragraph6 {
+  position: relative;
+  top:13vw;
+  height: 58px;
+  right: 300px;
+  text-align: justify;
+padding-left: 25%;
+padding-right: 5%;
+line-height: 150%;
+}
+
+.paragraph7 {
+  position: relative;
+  top: 13vw;
+  right: 300px;
+  text-align: justify;
+padding-left: 25%;
+padding-right: 5%;
+line-height: 150%;
+height: 48px;
+}
+
+.sessao-minibanner2 { 
+  position: absolute;
+  left: 20px;
+  top: 115vw;
+  width: 270px;
+  height: 500px;
+  background-image: url('../album/ghibliMoisaco.png');
+  background-position: center;
+  background-size: cover;
+} 
+
+.sessao-descricao8{
+  position: relative;
+  top: 81px;
+  right: 116px;
+  text-align: justify;
+padding-left: 30%;
+line-height: 150%;
+}
+
+.paragraph9{
+  position: relative;
+  bottom: 21px;
+  right: 112px;
+  text-align: justify;
+  padding-left: 30%;
+  line-height: 150%;
+}
+
+.paragraph3{
+  position: relative;
+  top: 302px;
+  right: 296px;
+  height: 80px;
+}
+
+.paragraph11{
+  position: relative;
+  top: 29px;
+  right: 114px;
+  text-align: justify;
+padding-left: 30%;
+line-height: 150%;
+}
+
+.capa {
+  position: relative;
+  top: 500px;
+  height: 440px;
+  background-image: url('../album/footer1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.imageJiji {
+  background-image: url("../album/jijiIcon.png");
+  position: relative;
+  top: 19vw;
+  width: 150px;
+  height: 150px;
+  left: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Css das linguagens de programaçao */
+
+#iconLink {
+  position: relative;
+  background-image: url("../album/linkedin2.png");
+  background-repeat: no-repeat;
+  left: 615px; 
+  top: 92px;
+  height: 70px;
+  width: 40px;
+}
+
+#iconGit {
+  position: relative;
+  background-image: url("../album/github.png");
+  width: 50px;
+  background-repeat: no-repeat;
+  left: 615px;
+  top: 110px;
+  height: 70px;
+  width: 40px;
+}
+
+#iconReact {
+  position: relative;
+  background-image: url("../album/atom.png");
+  background-repeat: no-repeat;
+  left: 120px;
+  bottom: 20px;
+  height: 70px;
+  width: 50px;
+} 
+
+#iconJava {
+  position: relative;
+  background-image: url("../album/java.png");
+  width: 50px;
+  background-repeat: no-repeat;
+  left: 60px;
+  bottom: 80px;
+  height: 70px;
+  width: 40px;
+} 
+
+#iconJs {
+  position: relative;
+  background-image: url("../album/js.png");
+  width: 50px;
+  background-repeat: no-repeat;
+  bottom: 160px;
+  left: 175px;
+  height: 70px;
+  width: 40px;
+} 
+
+#iconPhp {
+  position: relative;
+  background-image: url("../album/php.png");
+  width: 50px;
+  background-repeat: no-repeat;
+  left: 50px;
+  bottom: 170px;
+  height: 70px;
+  width: 40px;
+} 
+
+#iconHtml {
+  position: relative;
+  background-image: url("../album/html5.png");
+  width: 50px;
+  background-repeat: no-repeat;
+  left: 50px;
+  bottom: 190px;
+  height: 70px;
+  width: 40px;
+} 
+
+#iconCss {
+  position: relative;
+  background-image: url("../album/css3.png");
+  width: 50px;
+  background-repeat: no-repeat;
+  left: 90px;
+  bottom: 230px;
+  height: 70px;
+  width: 40px;
+} 
+
+#iconPostgre {
+  position: relative;
+  background-image: url("../album/postgre.png");
+  width: 50px;
+  background-repeat: no-repeat;
+  left: 135px;
+  bottom: 295px;
+  height: 70px;
+  width: 40px;
+} 
+
+#iconDocker {
+  position: relative;
+  background-image: url("../album/docker.png");
+  width: 50px;
+  background-repeat: no-repeat;
+  left: 185px;
+  bottom: 380px;
+  height: 70px;
+  width: 40px;
+} 
+
+#iconPython{
+  position: relative;
+  background-image: url("../album/python.png");
+  width: 50px;
+  background-repeat: no-repeat;
+  left: 205px;
+  bottom: 490px;
+  height: 70px;
+  width: 40px;
+} 
+
+#iconTs {
+  position: relative;
+  background-image: url("../album/typescript.png");
+  width: 50px;
+  background-repeat: no-repeat;
+  left: 200px;
+  bottom: 610px;
+  height: 70px;
+  width: 40px;
+} 
+
+/* FIM DOS ÍCONES */
+
+footer p{
+  position: relative;
+  top: 10px;
+  text-align: center;
+  color: #d402aa;
+  height: 250px; 
+  margin: 0;
+}
+
+.title {
+  position: relative;
+  bottom: 50px;
+  font-size: 40px;
+}
+
+.redes{
+  position: relative;
+  height: 0;
+  font-size: 35px;
+  bottom: 50px;
+}
+
+.git{
+  position: relative;
+  bottom: 190px;
+  left: 650px;
+  font-size: 30px;
+  height: 70px;
+    width: 40px;
+}
+
+.linke {
+    position: relative;
+    left: 650px;
+    bottom: 210px;
+    font-size: 30px; 
+    height: 70px;
+    width: 40px;
+}
+
+
+/* LOCAL PARA APP */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+  
+
+.initial{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/src/album/cahttp://localhost:5174pa.png");
+    height: 100%;
+}
+
+.btn {
+    position: absolute;
+    height: 60px;
+    bottom: 150px;
+    left: 650px;
+    background: #1acbd4;
+     background-image: -webkit-linear-gradient(top, #1acbd4, #1a51b8);
+    background-image: -moz-linear-gradient(top, #1acbd4, #1a51b8);
+    background-image: -ms-linear-gradient(top, #1acbd4, #1a51b8);
+    background-image: -o-linear-gradient(top, #1acbd4, #1a51b8);
+    background-image: linear-gradient(to bottom, #1acbd4, #1a51b8);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    text-shadow: 10px 9px 3px #1c57e3;
+    -webkit-box-shadow: 5px 4px 13px #23ede6;
+    -moz-box-shadow: 5px 4px 13px #23ede6;
+    box-shadow: 5px 4px 13px #23ede6;
+    font-family: Courier New;
+    color: #c1e9f7;
+    font-size: 31px;
+    padding: 12px 22px 12px 23px;
+    border: solid #1ad6c9 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3c86fc;
+    background-image: -webkit-linear-gradient(top, #3c86fc, #34d1d9);
+    background-image: -moz-linear-gradient(top, #3c86fc, #34d1d9);
+    background-image: -ms-linear-gradient(top, #3c86fc, #34d1d9);
+    background-image: -o-linear-gradient(top, #3c86fc, #34d1d9);
+    background-image: linear-gradient(to bottom, #3c86fc, #34d1d9);
+    text-decoration: none;
+  } 
+

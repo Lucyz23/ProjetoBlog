@@ -1,0 +1,438 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext);
+
+/* *{
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} */
+
+.music{
+  background-repeat: no-repeat;
+  position: relative;
+  Bottom: 10px;
+  height: 39vw;
+  background-size: 100% auto;
+  background-image: url(../album/mundoMononoke.png);
+}
+
+.topnav {
+  height: 7%;
+  position: relative;
+  bottom: 360px;
+  overflow: hidden;
+  background-image: linear-gradient(
+    to right top,
+    #40128B,
+    #9336B4,
+    #DD58D6,
+    #FFE79B
+  )
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(225, 181, 218);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #7804aa;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-image: linear-gradient(
+    to right bottom,
+    #40128B,
+    #9336B4,
+    #DD58D6,
+    #FFE79B
+  );
+  color: white;
+}
+
+#sessao-bem-vindo {
+  padding-left: 0;
+  height: 40%;
+}
+
+.sessao-bemvindo-mononoke {
+    padding-left: 700px;
+    font-size: 16px;
+    position: relative;
+    bottom: 300px;
+    right: 100px;
+    color: #7804aa;
+}
+
+#sessao-bem-vindo .capa {
+  position:absolute;
+  top: 500px;
+  left: 20px;
+  margin: 0;
+  width: 400px;
+  height: 600px;
+  background-image: url('../album/MononokeSan.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#test{
+  height: 0%;
+}
+
+h1 {
+    color: #40128B;
+}
+
+#sessao-bemvindo1 {
+  position: relative;
+  bottom: 30px;
+  right: 8px;
+  margin-top: 70px;
+  font-size: 30px;
+}
+
+.texto {
+    padding-left: 36%;
+    position: relative;
+    bottom: 400px;
+    right: 70px;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.texto2  {
+    position: relative;
+    bottom: 380px;
+    right: 55px;
+    padding-left: 35%;   
+}
+
+.texto3  {
+    position: relative;
+    bottom: 903px;
+    right: 55px;
+    padding-left: 35%;
+}
+
+.texto4 {
+    position: relative;
+    bottom: 1150px;
+    right: 55px;
+    padding-left: 35%;
+}
+
+.texto5 {
+    position: relative;
+    bottom: 1400px;
+    right: 55px;
+    padding-left: 35%;
+}
+
+
+
+#photoMononoke { 
+    position: relative;
+    left: 1086px;
+    top: 240px;
+    width: 321px;
+    height: 543px;
+    background-image: url(/src/album/personagens.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+} 
+
+.sessao-texto{
+    position: relative;
+    text-align: justify;
+    padding-left: 35%;
+    right: 450px;
+    bottom: 516px;
+}
+
+.texto6 {
+    position: relative;
+    bottom: 1210px;
+    right: 450px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+}
+
+.texto7 {
+    position: relative;
+    bottom: 135vw;
+    right: 451px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+}
+
+.texto8 {
+    position: relative;
+    bottom: 186vw;
+    right: 447px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+}
+
+.sessao-smallBanner1 { 
+    position: relative;
+    left: 20px;
+    top: 71px;
+    width: 353px;
+    height: 495px;
+    background-image: url(/src/album/Minu.png);
+    background-position: center;
+    background-size: cover;
+} 
+
+.sessao-texto2{
+    position: relative;
+    right: 100px;
+    bottom: 383px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+}
+
+.texto10{
+    position: relative;
+    bottom: 280px;
+    right: 100px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+}
+
+.texto11{
+    position: relative;
+    bottom: 228px;
+    right: 100px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+}
+
+.texto12{
+    position: relative;
+    bottom: 160px;
+    right: 104px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+}
+
+#subtitle{
+    position: relative;
+    left: 650px;
+    top: 260px;
+    width:200px;
+    height: 0;
+    color: #9336B4;
+}
+
+/* Aqui é aonde está hospedado a parte do album/slide  */
+
+.sl1{
+    width: 30%;
+    height: 400px;
+    position: relative;
+    left: 200px;
+    top: 350px;
+}
+.slick-next {
+    left: 1000px!important;
+    position: relative;
+    bottom: 300px !important;
+    width: 0;
+}
+.slick-dots {
+    bottom: none!important;
+    position: absolute;
+
+    display: none!important;
+}
+
+.slick-prev {
+    left: -25px;
+    top: 161px;
+}
+/* Fim */
+
+/* AQUI DEIXA FOTOS NO MESMO TAMANHO */
+.imageC {
+    height: 400px;
+    width: 84%;
+}
+/* Fim */
+
+.image4 {
+    display: block;
+    position: relative;
+}
+  
+.image5 {
+    display: block;
+    height: 390px;
+    position: relative;
+}
+
+/* Aqui é onde começa o segundo album da pagina */
+.sl2{
+    width: 32%;
+    height: 400px;
+    position: relative; 
+    left: 600px;
+    bottom: 48px;
+    margin-left: 100px
+}
+
+
+
+.image6 {
+    display: block;
+    height: 520px;
+    position: relative;
+    left: 5px;
+    width: 50%;
+    top: 5px;
+}
+
+.image7{
+    position: relative;
+}
+
+
+.image9 {
+    position: relative;
+    /* right: ; */
+    height: 320px;
+    width: 70%;
+}
+
+
+
+/* LOCAL PARA APP */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+  
+
+.initial{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("http://localhost:5173/src/album/capa.png");
+    height: 100%;
+}
+
+.btn {
+    position: absolute;
+    height: 60px;
+    bottom: 150px;
+    left: 650px;
+    background: #1acbd4;
+     background-image: -webkit-linear-gradient(top, #1acbd4, #1a51b8);
+    background-image: -moz-linear-gradient(top, #1acbd4, #1a51b8);
+    background-image: -ms-linear-gradient(top, #1acbd4, #1a51b8);
+    background-image: -o-linear-gradient(top, #1acbd4, #1a51b8);
+    background-image: linear-gradient(to bottom, #1acbd4, #1a51b8);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 22px;
+    border-radius: 22px;
+    text-shadow: 10px 9px 3px #1c57e3;
+    -webkit-box-shadow: 5px 4px 13px #23ede6;
+    -moz-box-shadow: 5px 4px 13px #23ede6;
+    box-shadow: 5px 4px 13px #23ede6;
+    font-family: Courier New;
+    color: #c1e9f7;
+    font-size: 31px;
+    padding: 12px 22px 12px 23px;
+    border: solid #1ad6c9 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3c86fc;
+    background-image: -webkit-linear-gradient(top, #3c86fc, #34d1d9);
+    background-image: -moz-linear-gradient(top, #3c86fc, #34d1d9);
+    background-image: -ms-linear-gradient(top, #3c86fc, #34d1d9);
+    background-image: -o-linear-gradient(top, #3c86fc, #34d1d9);
+    background-image: linear-gradient(to bottom, #3c86fc, #34d1d9);
+    text-decoration: none;
+  } 
+
