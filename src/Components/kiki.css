@@ -1,23 +1,12 @@
-#totoro {
-    background-color: #FFD1DA;
-  }
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext);
 
-  @import url(https://fonts.googleapis.com/css?family=Montserrat:300&subset=latin-ext);
-
-/* *{
-    box-sizing: border-box;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-} */
-
-.photo1{
+.photoFirst{
   background-repeat: no-repeat;
   position: relative;
   Bottom: 10px;
-  height: 39vw;
+  height: 37vw;
   background-size: 100% auto;
-  background-image: url(../album/MundoTotoro.png);
+  background-image: url(../album/mundoKikiTest1.jpg);
 }
 
 .topnav {
@@ -80,7 +69,6 @@
 
 .dropdown-content a {
   float: none;
-  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -98,257 +86,277 @@
   color: white;
 }
 
-#sessao-bemvindo1 {
+#WelcomeToSection {
   padding-left: 0;
   height: 40%;
 }
 
-.sessao-bemvindo-totoro {
-  padding-left: 700px;
-  font-size: 16px;
-  position: relative;
-  bottom: 300px;
-  right: 100px;
-  color: #7804aa;
+.sessao-bemvindo-kiki {
+    padding-left: 700px;
+    font-size: 16px;
+    position: relative;
+    bottom: 300px;
+    right: 100px;
+    color: #7804aa;
 }
 
-#sessao-bemvindo1 .banner1 {
+#WelcomeToSection .photoFirstPage {
   position:absolute;
-  top: -201px;
+  bottom: -106px;
   left: 20px;
   margin: 0;
   width: 400px;
   height: 600px;
-  background-image: url('../album/photo1.jpg');
+  background-image: url('../album/46e7ec5701301257865.png');
   background-position: center;
   background-size: cover;
 }
 
-#teste{
-  height: 0%;
+h1 {
+    height: 39px;
+    color: #40128B;
 }
 
-
-h1 {
+#WelcomeToSection{
   position: relative;
   bottom: 30px;
   right: 8px;
   margin-top: 70px;
-  color: #40128B;
   font-size: 30px;
 }
 
-.text{
+.introText {
+    height: 58%;
+    padding-left: 36%;
     position: relative;
-    width: 921px;
-    padding-left: 21px;
-    left:  450px;
-    bottom: 480px;
+    bottom: 456px;
+    right: 70px;
     line-height: 2;
-    font-size: 16px;
+    font-size: 60%;
 }
 
-.text2 {
+.textSecond  {
     position: relative;
-    bottom: 650px;
-    width: 921px;
-    padding-left: 21px;
-    left:  450px;
-    font-size: medium;
+    font-size: 60%;
+    bottom: 459px;
+    right: 55px;
+    padding-left: 35%;
+    height: 35%;
 }
 
-.text3 {
+.textThird  {
     position: relative;
-    bottom: 860px;
-    left:  450px;
-    width: 921px;
-    padding-left: 21px;
-    font-size: 18px;
+    bottom: 443px;
+    right: 55px;
+    padding-left: 35%;
+    height: 30%;
+    font-size: 60%;
 }
 
-.text4 {
-  position: relative;
-  bottom: 1094px;
-  left:  450px;
-  width: 921px;
-  padding-left: 21px;
-  font-size: 18px;
+.textFourth {
+    position: relative;
+    bottom: 460px;
+    font-size: 60%;
+    right: 55px;
+    padding-left: 35%;
+    height: 30%;
 }
 
-.text12 {
-  position: relative;
-  font-size: 18px;
-  bottom: 1327px;
-  left:  433px;
-  width: 921px;
-  padding-left: 35px;
+.textFifth {
+    position: relative;
+    bottom: 479px;
+    right: 55px;
+    font-size: 60%;
+    height: 30%;
+    padding-left: 35%;
 }
 
 
 
-#photoTotoro { 
-    position: absolute;
-    left: 77vw;
-    top: 527px;
-    width: 240px;
-    height: 450px;
-    background-image: url(/src/album/totoroReunido.jpg);
+#photoKiki { 
+    position: relative;
+    left: 1086px;
+    top: 240px;
+    width: 321px;
+    height: 543px;
+    background-image: url('../album/entregasKiki.jpg');
     background-position: center;
     background-size: cover;
     float: left;
 } 
 
-.sessao-text1 {
- position: relative;
-text-align: justify;
-padding-left: 29%;
-line-height: 150%;
-right: 370px;
-bottom: 543px;
-  line-height: 2;
-  font-size: 16px;
+.sectionTexts{
+    position: relative;
+    text-align: justify;
+    padding-left: 35%;
+    right: 450px;
+    bottom: 516px;
+    height: 13%;
 }
 
-.text5 {
-  position: relative;
-  bottom: 1200px;
-  right: 310px;
-  text-align: justify;
-padding-left: 25%;
-padding-right: 5%;
-line-height: 150%;
+.textSixth {
+    position: relative;
+    bottom: 525px;
+    right: 450px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+    height: 7%;
 }
 
-.text6 {
-  position: relative;
-  bottom: 131vw;
-  right: 309px;
-  text-align: justify;
-  padding-left: 25%;
-  padding-right: 5%;
-  line-height: 150%;
-  height: 52px;
+.textSeventh {
+    position: relative;
+    bottom: 37vw;
+    right: 451px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+    height: 7%;
 }
 
-.text7 {
-  position: relative;
-  bottom: 138vw;
-  right: 310px;
-  text-align: justify;
-  padding-left: 25%;
-  padding-right: 5%;
-  line-height: 150%;
-  height: 60px;
+.textEighth {
+    position: relative;
+    bottom: 37vw;
+    right: 447px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+    height: 7%;
 }
 
-.sessao-minibanner3 { 
-  position: absolute;
-  left: 20px;
-  top: 114vw;
-  width: 280px;
-  height: 500px;
-  background-image: url('../album/totoroFofo.jpg');
-  background-position: center;
-  background-size: cover;
+.sectionSmallBannerKiki { 
+    position: relative;
+    left: 20px;
+    top: 71px;
+    width: 353px;
+    height: 495px;
+    background-image: url('../src/album/jiji.jpg');
+    background-position: center;
+    background-size: cover;
 } 
 
-.sessao-text2{
-  position: relative;
-  right: 100px;
-  text-align: justify;
-padding-left: 30%;
-line-height: 150%;
-}
+#testes6{
+    height: 0%;
+  }
 
-.text9{
-  position: relative;
-  top: 105px;
-  right: 100px;
-  text-align: justify;
-  padding-left: 30%;
-  line-height: 150%;
-}
-
-.text10{
-  position: relative;
-  top: 213px;
-  right: 100px;
-  text-align: justify;
-padding-left: 30%;
-line-height: 150%;
-}
-
-.text11{
-  position: relative;
-  top: 160px;
-  right: 100px;
-  text-align: justify;
-padding-left: 30%;
-line-height: 150%;
-}
-
-.capa {
-  position: relative;
-  right: 20px;
-  top: 500px;
-  height: 440px;
-  background-image: url('../album/footer1.png');
-  background-position: center;
-  background-size: cover;
-}
-
-.image {
-  background-image: url("../album/jijiIcon.png");
-  position: relative;
-  top: 21vw;
-  width: 150px;
-  height: 150px;
-  left: 630px;
-  background-position: center;
-  background-size: cover;
-}
-
-#legenda{
+.sectionIntroSecondText{
     position: relative;
-    margin-left: 630px;
+    right: 100px;
+    bottom: 383px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+}
+
+.textTenth{
+    position: relative;
+    bottom: 280px;
+    right: 100px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+}
+
+.textEleventh{
+    position: relative;
+    bottom: 228px;
+    right: 100px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+}
+
+.textTwelfth{
+    position: relative;
+    bottom: 160px;
+    right: 104px;
+    text-align: justify;
+    padding-left: 35%;
+    line-height: 150%;
+}
+
+#titleTrailer{
+    position: relative;
+    left: 650px;
+    top: 260px;
+    width:200px;
     height: 0;
     color: #9336B4;
 }
 
-.sl3 {
-  width: 30%;
-  height: 400px;
-  position: relative;
-  left: 200px;
-  top: 150px;
+/* Aqui é aonde está hospedado a parte do album/slide  */
+
+.sl7{
+    width: 30%;
+    height: 436px;
+    position: relative;
+    left: 200px;
+    top: 350px;
 }
 
-
 .slick-dots {
-  bottom: none!important;
-  position: absolute;
+    bottom: none!important;
+    position: absolute;
 
-  display: none!important;
+    display: none!important;
 }
 
 .slick-prev {
-  left: -25px;
-  top: 161px;
+    left: -25px;
+    top: 161px;
+}
+/* Fim */
+
+/* AQUI DEIXA FOTOS NO MESMO TAMANHO */
+.imageF {
+    height: 100%;
+    width: 84%;
+}
+/* Fim */
+
+/* .image4 {
+    display: block;
+    position: relative;
+}
+  
+.image5 {
+    display: block;
+    height: 390px;
+    position: relative;
+} */
+
+/* Aqui é onde começa o segundo album da pagina */
+.sl8{
+    width: 32%;
+    height: 436px;
+    position: relative; 
+    left: 600px;
+    bottom: 48px;
+    margin-left: 100px;
+    top: -87px;
 }
 
-.imageD {
-  height: 500px;
-  width: 84%;
+
+/* .image6 {
+    display: block;
+    height: 520px;
+    position: relative;
+    left: 5px;
+    width: 50%;
+    top: 5px;
 }
 
-.sl4{
-  width: 32%;
-  height: 400px;
-  position: relative; 
-  left: 600px;
-  bottom: 250px;
-  margin-left: 100px
-}
+.image7{
+    position: relative;
+} */
+
+
+/* .image9 {
+    position: relative;
+    right: ;
+    height: 320px;
+    width: 70%;
+} */
 
 
 

@@ -138,7 +138,7 @@ body {
 
 .sessao-descricao p {
   position: relative;
-  bottom: 439px;
+  bottom: 170px;
   right: 135px;
   line-height: 2;
   font-size: 16px;
@@ -146,14 +146,14 @@ body {
 
 .paragraph2 {
   position: relative;
-  bottom: 511px;
+  bottom: 262px;
   right: 135px;
   height: 113px;
 }
 
 .paragraph10 {
   position: relative;
-  bottom: 903px;
+  bottom: 934px;
   right: 111px;
     text-align: justify;
     padding-left: 41%;
@@ -169,7 +169,7 @@ body {
 
 .paragraph12 {
   position: relative;
-  bottom: 60vw;
+  bottom: 24vw;
   right: 135px;
   height: 86px;
 }
@@ -194,8 +194,7 @@ text-align: justify;
 padding-left: 29%;
 line-height: 150%;
 right: 359px;
-top: 13vw;
-  line-height: 2;
+top: 15vw;
   font-size: 16px;
   height: 132px;
 }
@@ -224,7 +223,7 @@ line-height: 150%;
 
 .paragraph7 {
   position: relative;
-  top: 13vw;
+  top:15vw;
   right: 300px;
   text-align: justify;
 padding-left: 25%;
@@ -265,8 +264,9 @@ line-height: 150%;
 .paragraph3{
   position: relative;
   top: 302px;
-  right: 296px;
-  height: 80px;
+  right: 552px;
+  height: 53px;
+  width: 138%;
 }
 
 .paragraph11{

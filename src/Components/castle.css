@@ -300,12 +300,7 @@ h1 {
     left: 200px;
     top: 350px;
 }
-.slick-next {
-    left: 1000px!important;
-    position: relative;
-    bottom: 300px !important;
-    width: 0;
-}
+
 .slick-dots {
     bottom: none!important;
     position: absolute;
@@ -320,22 +315,13 @@ h1 {
 /* Fim */
 
 /* AQUI DEIXA FOTOS NO MESMO TAMANHO */
-.imageE {
+.imageF {
     height: 400px;
     width: 84%;
 }
 /* Fim */
 
-/* .image4 {
-    display: block;
-    position: relative;
-}
-  
-.image5 {
-    display: block;
-    height: 390px;
-    position: relative;
-} */
+
 
 /* Aqui é onde começa o segundo album da pagina */
 .sl6{
@@ -347,28 +333,6 @@ h1 {
     margin-left: 100px
 }
 
-
-
-/* .image6 {
-    display: block;
-    height: 520px;
-    position: relative;
-    left: 5px;
-    width: 50%;
-    top: 5px;
-}
-
-.image7{
-    position: relative;
-} */
-
-
-/* .image9 {
-    position: relative;
-    right: ;
-    height: 320px;
-    width: 70%;
-} */
 
 
 

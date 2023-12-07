@@ -56,6 +56,7 @@ export default function Totoro() {
       <Link to="/princess">Mononoke Hime</Link>
       <Link to="/castle">Castelo Animado</Link>
       <Link to="/chihiro">Viagem de Chihiro</Link>
+      <Link to="/kiki">Kikis Delivery Service</Link>
       <Link to="/">Sair</Link>
       </div>
 
@@ -171,7 +172,7 @@ export default function Totoro() {
                 allowfullscreen>
                 </iframe>
                 </videos>
-                <figcaption id="legenda">Trailer My Neighbor Totoro</figcaption>
+                <figcaption id="legenda">Trailer: My Neighbor Totoro</figcaption>
                 </section>
                 
                 <div>

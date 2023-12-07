@@ -232,6 +232,10 @@ h1 {
     background-size: cover;
 } 
 
+.slides{
+  width: 1240px;
+}
+
 .sessao-texto2{
     position: relative;
     right: 100px;
@@ -286,12 +290,7 @@ h1 {
     left: 200px;
     top: 350px;
 }
-.slick-next {
-    left: 1000px!important;
-    position: relative;
-    bottom: 300px !important;
-    width: 0;
-}
+
 .slick-dots {
     bottom: none!important;
     position: absolute;
@@ -307,7 +306,7 @@ h1 {
 
 /* AQUI DEIXA FOTOS NO MESMO TAMANHO */
 .imageC {
-    height: 400px;
+    height: 100%;
     width: 84%;
 }
 /* Fim */
